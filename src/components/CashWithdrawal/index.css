@@ -1,0 +1,173 @@
+/* Write your CSS here */
+/* Write your CSS here index.css cashWithdrawal  */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.balance-container {
+  background-color: #150b3e;
+  max-width: 450px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .balance-container {
+    width: 90%;
+    max-width: 420px;
+  }
+}
+
+.text-container {
+  width: 90%;
+}
+
+.name-container {
+  margin-top: 0px;
+  display: flex;
+  padding-top: 30px;
+}
+
+.logo-letter {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  padding: 26px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  .logo-letter {
+    height: 50px;
+    width: 50px;
+    padding: 18px;
+    padding-right: 15px;
+    font-size: 16px;
+  }
+}
+
+.name {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 15px;
+  }
+}
+
+.rupees-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+  margin-top: 20px;
+}
+
+.balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+  .balance-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+.money-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+@media (max-width: 768px) {
+  .amount {
+    font-size: 20px;
+  }
+}
+
+.rupee-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .rupee-text {
+    font-size: 13px;
+  }
+}
+
+.withDraw-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 19px;
+  }
+}
+
+.sum-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 450;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .sum-text {
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+.cash-count {
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

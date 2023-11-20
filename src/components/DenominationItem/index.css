@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.button-container {
+  display: flex;
+  margin-top: 5px;
+  width: 50%;
+  flex-wrap: wrap;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+}
+
+.button {
+  height: 40px;
+  width: 180px;
+  background-color: #382f5a;
+  color: #c4c4c4;
+  border-radius: 5px;
+  border: 2px #c4c4c4 solid;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .button {
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+  }
+}
